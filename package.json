@@ -13,7 +13,7 @@
     "debug": "DEBUG=* eleventy && npm run test",
     "test": "mocha test/test*.js",
     "test-watch": "mocha test/test*.js --watch",
-    "clean" : "rm -Rf ./_site/posts/*"
+    "clean": "rm -Rf ./_site/posts/*"
   },
   "pre-push": [
     "build"
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/11ty/eleventy-base-blog#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy": "^1.0.0-beta.8",
     "@11ty/eleventy-navigation": "^0.1.3",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
@@ -58,6 +58,7 @@
     "hasha": "^5.2.0",
     "html-minifier": "^4.0.0",
     "image-size": "^0.8.3",
+    "jimp": "^0.16.1",
     "lru-cache": "^5.1.1",
     "mocha": "^8.1.3",
     "phin": "^3.5.0",
